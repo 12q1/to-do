@@ -1,12 +1,8 @@
 import "./styles.css";
-
 import React, { memo } from "react";
 import ReactDOM from "react-dom";
-
 import { useInputValue, useTodos } from "./custom-hooks";
-
 import Layout from "./components/Layout";
-
 import AddTodo from "./components/AddTodo";
 import TodoList from "./components/TodoList";
 
